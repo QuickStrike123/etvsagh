@@ -1,0 +1,148 @@
+html{
+
+  scroll-behavior: smooth;
+
+}
+
+.menu{
+    
+  list-style: none;
+  
+  font-family: futura;
+  
+  float: right;
+  
+  top: 10px;
+  
+  right: 30px;
+  
+  cursor: pointer;
+  
+  color: black;
+
+  position: sticky;
+  
+}
+
+body{
+  
+  background-image: linear-gradient(to right,cyan , orchid);
+  
+  text-align: center;
+  
+}
+
+img{
+  
+display: inline-block;
+
+position: relative;
+
+width: 200px;
+
+height: 200px;
+
+overflow: hidden;
+
+border-radius: 50%;
+  
+}
+
+#AboutMe:hover{
+
+background-color: red;
+
+}
+
+#MyFavouriteBooks:hover{
+
+background-color: red;
+
+}
+
+#MyWork:hover{
+
+background-color: red;
+
+}
+
+#Inspiration:hover{
+
+background-color: red;
+
+}
+
+#Contact:hover{
+
+background-color: red;
+
+}
+
+ul {
+
+width: 100%;
+
+list-style-type: none;
+
+margin: 0;
+
+padding: 0;
+
+overflow: hidden;
+
+background-color: #333;
+
+}
+
+li {
+
+float: left;
+
+}
+
+li a {
+
+display: block;
+
+color: white;
+
+text-align: center;
+
+padding: 14px 16px;
+
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #111;
+}
+
+iframe{
+
+  border: ridge;
+
+  border-width: 5px;
+
+}
+
+h3{
+
+  color: black;
+
+  font-family: futura;
+
+}
+
+p{
+
+  font-family: futura;
+
+}
+
+#JK.RowlingImage{
+
+  height: 250px;
+
+  width: 250px;
+
+}
